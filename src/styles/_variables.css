@@ -7,11 +7,16 @@
   --toggle-color: #ddd;
   --text-color: #707070;
 
+  /* ====== Globals ====== */
+  --header-height: 170px;
+  --header-shrink-height: 70px;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
   /* ====== Transition ====== */
   --tran-03: all 0.2s ease;
   --tran-03: all 0.3s ease;
-  --tran-04: all 0.3s ease;
-  --tran-05: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
 }
 
 [data-theme="dark"] {

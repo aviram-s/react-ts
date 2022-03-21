@@ -1,0 +1,16 @@
+.header {
+  background-color: var(--body-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  height: var(--header-height);
+  transition: 0.3s;
+  position: fixed;
+}
+
+.shrink {
+  height: var(--header-shrink-height);
+  box-shadow: var(--box-shadow);
+  z-index: 100;
+}
