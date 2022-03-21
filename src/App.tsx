@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Routes from "./routes/Routes";
 
-function App() {
+const App: React.FC = () => {
+  const [theme, setTheme] = useState("light");
+
+  const switchTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app" data-theme={theme}>
+        <Header onSwitchTheme={switchTheme} />
+        <div className="container">
+          <Routes />
+        </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
