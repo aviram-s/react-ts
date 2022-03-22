@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { HeaderProps } from "../interfaces/interfaces";
 import CategoryButton from "./CategoryButton";
 
-const Header: React.FC<HeaderProps> = ({ onSwitchTheme }) => {
+const Header: React.FC<HeaderProps> = ({ onSwitchTheme, theme }) => {
   const headerRef = useRef<HTMLDivElement>(null);
 
   const handleScroll = () => {
@@ -34,7 +34,10 @@ const Header: React.FC<HeaderProps> = ({ onSwitchTheme }) => {
         </div>
         <div className="headerIcons">
           <CategoryButton Icon="search" />
-          <CategoryButton Icon="moon" />
+          <CategoryButton
+            Icon={theme === "light" ? "moon" : "sun"}
+            handleClick={onSwitchTheme}
+          />
           <CategoryButton Icon="user" />
         </div>
       </div>

@@ -6,6 +6,20 @@
   position: sticky;
 }
 
+.headerCategories {
+  display: flex;
+  width: 370px;
+}
+
+.headerCategories {
+  display: flex;
+  width: 370px;
+}
+
+.headerIcons {
+  display: flex;
+}
+
 .header {
   background-color: var(--sidebar-color);
   transition: var(--tran-03);

@@ -14,7 +14,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="app" data-theme={theme}>
-        <Header onSwitchTheme={switchTheme} />
+        <Header onSwitchTheme={switchTheme} theme={theme} />
         <div className="container">
           <Routes />
         </div>
