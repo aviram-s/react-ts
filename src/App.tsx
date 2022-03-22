@@ -15,9 +15,7 @@ const App: React.FC = () => {
     <BrowserRouter>
       <div className="app" data-theme={theme}>
         <Header onSwitchTheme={switchTheme} theme={theme} />
-        <div className="container">
-          <Routes />
-        </div>
+        <Routes />
         <Footer />
       </div>
     </BrowserRouter>

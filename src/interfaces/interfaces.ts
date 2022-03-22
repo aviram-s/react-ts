@@ -8,3 +8,11 @@ export interface CategoryButtonProps {
   Icon?: String;
   handleClick?: () => void;
 }
+
+export interface ProductProps {
+  Img?: String;
+  Name: String;
+  PriceWas: Number;
+  PriceNow: Number;
+  Date: Date;
+}
