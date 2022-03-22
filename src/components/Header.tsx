@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { HeaderProps } from "../interfaces/interfaces";
+import CategoryButton from "./CategoryButton";
 
 const Header: React.FC<HeaderProps> = ({ onSwitchTheme }) => {
   const headerRef = useRef<HTMLDivElement>(null);
 
-  const handleScroll = (e: Event) => {
-    console.log(e);
+  const handleScroll = () => {
     if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
+      document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80
     ) {
       headerRef.current?.classList.add("shrink");
     } else {
@@ -24,8 +24,20 @@ const Header: React.FC<HeaderProps> = ({ onSwitchTheme }) => {
   }, []);
 
   return (
-    <div className="header" ref={headerRef}>
-      Header
+    <div className="headerStickyContainer">
+      <div ref={headerRef} className="header">
+        <div className="headerCategories">
+          <CategoryButton Text="USA" />
+          <CategoryButton Text="UK" />
+          <CategoryButton Text="Canada" />
+          <CategoryButton Text="Germany" />
+        </div>
+        <div className="headerIcons">
+          <CategoryButton Icon="search" />
+          <CategoryButton Icon="moon" />
+          <CategoryButton Icon="user" />
+        </div>
+      </div>
     </div>
   );
 };

@@ -2,10 +2,11 @@
   /* ===== Colors ===== */
   --body-color: #e4e9f7;
   --sidebar-color: #fff;
-  --primary-color: #695cfe;
+  --primary-color: #695cfe96;
   --primary-color-light: #f6f5ff;
   --toggle-color: #ddd;
   --text-color: #707070;
+  --hover-color: #fff;
 
   /* ====== Globals ====== */
   --header-height: 170px;
@@ -26,4 +27,5 @@
   --primary-color-light: #3a3b3c;
   --toggle-color: #fff;
   --text-color: #ccc;
+  --hover-color: #ccc;
 }
