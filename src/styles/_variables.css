@@ -12,6 +12,7 @@
   --header-height: 170px;
   --header-shrink-height: 70px;
   --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow-light: rgb(17 17 26 / 4%) 0px 0px 16px;
 
   /* ====== Transition ====== */
   --tran-03: all 0.2s ease;

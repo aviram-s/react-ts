@@ -9,15 +9,12 @@
 .headerCategories {
   display: flex;
   width: 370px;
-}
-
-.headerCategories {
-  display: flex;
-  width: 370px;
+  margin-left: 5px;
 }
 
 .headerIcons {
   display: flex;
+  margin-right: 5px;
 }
 
 .header {
@@ -34,4 +31,5 @@
 .shrink {
   height: 50%;
   box-shadow: var(--box-shadow);
+  width: 100%;
 }
