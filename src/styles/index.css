@@ -4,5 +4,6 @@
 @import "components/_header.css";
 @import "components/_app.css";
 @import "components/_categoryButton.css";
+@import "components/_footer.css";
 
 @import "pages/_home.css";

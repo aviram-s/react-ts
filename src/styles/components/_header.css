@@ -4,6 +4,7 @@
   width: 100%;
   height: var(--header-height);
   position: sticky;
+  z-index: 10;
 }
 
 .headerCategories {

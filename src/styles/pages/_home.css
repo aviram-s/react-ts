@@ -13,6 +13,9 @@
   width: 20%;
   margin-bottom: 10px;
 }
+.product:hover {
+  cursor: pointer;
+}
 
 .product a {
   color: var(--text-color);
