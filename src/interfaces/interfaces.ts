@@ -4,15 +4,20 @@ export interface HeaderProps {
 }
 
 export interface CategoryButtonProps {
-  Text?: String;
-  Icon?: String;
+  Text?: string;
+  Icon?: string;
   handleClick?: () => void;
 }
 
 export interface ProductProps {
-  Img?: String;
-  Name: String;
-  PriceWas: Number;
-  PriceNow: Number;
-  Date: Date;
+  Img?: string;
+  Name: string;
+  PriceWas: number;
+  PriceNow: number;
+  Date: string;
+  Id: number;
+}
+export interface CategoryType {
+  Name: string;
+  Id: number;
 }

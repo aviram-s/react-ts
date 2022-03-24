@@ -1,5 +1,5 @@
 import React from "react";
-import { CATEGORIES } from "../data/mockData";
+import { CATEGORIES } from "../data/data";
 import CategoryButton from "./CategoryButton";
 
 const HeaderMenu: React.FC = () => {

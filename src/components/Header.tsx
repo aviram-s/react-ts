@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { HeaderProps } from "../interfaces/interfaces";
 import CategoryButton from "./CategoryButton";
-import { CATEGORIES } from "../data/mockData";
+import { CATEGORIES } from "../data/data";
 import HeaderMenu from "./HeaderMenu";
 
 const Header: React.FC<HeaderProps> = ({ onSwitchTheme, theme }) => {
