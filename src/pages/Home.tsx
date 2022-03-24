@@ -8,6 +8,7 @@ const Home: React.FC = () => {
       <div className="catalog">
         {PRODUCTS.map((product) => (
           <Product
+            Link={product.Link}
             key={product.Id}
             Id={product.Id}
             Img={product.Img}

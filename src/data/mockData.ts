@@ -2,6 +2,7 @@ import { ProductProps } from "../interfaces/interfaces";
 
 export const PRODUCTS: ProductProps[] = [
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -10,6 +11,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 1,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -18,6 +20,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 2,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -26,6 +29,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 3,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -34,6 +38,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 4,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -42,6 +47,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 5,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -50,6 +56,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 6,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -58,6 +65,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 7,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -66,6 +74,7 @@ export const PRODUCTS: ProductProps[] = [
     Id: 8,
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,
@@ -80,8 +89,10 @@ export const PRODUCTS: ProductProps[] = [
     PriceNow: 99,
     Date: "Mar 21, 2022",
     Id: 10,
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
   },
   {
+    Link: "https://www.amazon.com/dp/B07R4W1QY7/ref=syn_sd_onsite_desktop_1?pd_rd_w=hLJDT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSENZVjVTSkszWE1JJmVuY3J5cHRlZElkPUEwNDczODk4M1U4REkzRTQ5WFowRyZlbmNyeXB0ZWRBZElkPUEwMDM0MDgyM1NKNVEwQ1o4SUFNQSZ3aWRnZXROYW1lPXNkX29uc2l0ZV9kZXNrdG9wJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1",
     Name: "OMEN by HP Photon Wireless Gaming Mouse with Qi Wireless Charging",
     Img: "https://images.squarespace-cdn.com/content/v1/576bf6f9197aeaf55ed0447d/1647921430677-UAP8BAAZLEN2S40S7X2Z/image-asset.png",
     PriceWas: 127,

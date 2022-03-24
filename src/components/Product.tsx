@@ -7,12 +7,17 @@ const Product: React.FC<ProductProps> = ({
   PriceWas,
   PriceNow,
   Date,
+  Link,
 }) => {
   return (
     <div className="product">
-      <img src={Img}></img>
+      <a href={Link} target="_blank">
+        <img src={Img}></img>
+      </a>
       <div className="productBody">
-        <a>O{Name}</a>
+        <a href={Link} target="_blank">
+          {Name}
+        </a>
         <p>
           From ${PriceWas} to <b>${PriceNow}</b>
         </p>

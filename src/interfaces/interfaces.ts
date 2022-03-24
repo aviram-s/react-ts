@@ -16,6 +16,7 @@ export interface ProductProps {
   PriceNow: number;
   Date: string;
   Id: number;
+  Link: string;
 }
 export interface CategoryType {
   Name: string;

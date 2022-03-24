@@ -9,38 +9,7 @@
   justify-content: center;
   gap: 50px;
 }
-.product {
-  width: 20%;
-  margin-bottom: 10px;
-}
-.product:hover {
-  cursor: pointer;
-}
 
-.product a {
-  color: var(--text-color);
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-.product p {
-  color: var(--text-color);
-  font-size: 0.9rem;
-  line-height: 1.4em;
-  margin-top: 5px;
-}
-
-.productBody {
-  padding: 20px 0px;
-  text-align: left;
-}
-
-.product img {
-  border-radius: 6px;
-  width: 100%;
-  object-fit: cover;
-  box-shadow: var(--box-shadow-light);
-}
 @media screen and (max-width: 1250px) {
   .product {
     width: 25%;
