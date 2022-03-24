@@ -32,6 +32,26 @@ const Header: React.FC<HeaderProps> = ({ onSwitchTheme, theme }) => {
           <CategoryButton Text="Canada" />
           <CategoryButton Text="Germany" />
         </div>
+        <div className="menuContainer">
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
+          <ul className="menu">
+            <li>
+              <CategoryButton Text="USA" />
+            </li>
+            <li>
+              <CategoryButton Text="UK" />
+            </li>
+            <li>
+              <CategoryButton Text="Canada" />
+            </li>
+            <li>
+              <CategoryButton Text="Germany" />
+            </li>
+          </ul>
+        </div>
         <div className="headerIcons">
           <CategoryButton Icon="search" />
           <CategoryButton

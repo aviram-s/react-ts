@@ -1,5 +1,6 @@
 .categoryButton {
   justify-content: center;
+  width: 90%;
   border: none;
   margin: 5px;
   background-color: transparent;
