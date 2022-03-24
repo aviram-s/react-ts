@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { HeaderProps } from "../interfaces/interfaces";
 import CategoryButton from "./CategoryButton";
+import { CATEGORIES } from "../data/mockData";
+import HeaderMenu from "./HeaderMenu";
 
 const Header: React.FC<HeaderProps> = ({ onSwitchTheme, theme }) => {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -27,31 +29,12 @@ const Header: React.FC<HeaderProps> = ({ onSwitchTheme, theme }) => {
     <div className="headerStickyContainer">
       <div ref={headerRef} className="header">
         <div className="headerCategories">
-          <CategoryButton Text="USA" />
-          <CategoryButton Text="UK" />
-          <CategoryButton Text="Canada" />
-          <CategoryButton Text="Germany" />
+          {CATEGORIES.map((cat) => (
+            <CategoryButton key={cat.Id.toString()} Text={cat.Name} />
+          ))}
         </div>
-        <div className="menuContainer">
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <ul className="menu">
-            <li>
-              <CategoryButton Text="USA" />
-            </li>
-            <li>
-              <CategoryButton Text="UK" />
-            </li>
-            <li>
-              <CategoryButton Text="Canada" />
-            </li>
-            <li>
-              <CategoryButton Text="Germany" />
-            </li>
-          </ul>
-        </div>
+        <HeaderMenu />
+
         <div className="headerIcons">
           <CategoryButton Icon="search" />
           <CategoryButton

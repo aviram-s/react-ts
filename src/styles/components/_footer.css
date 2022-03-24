@@ -2,6 +2,7 @@
   width: 100%;
   background-color: var(--footer-color);
   padding: 40px 0 40px;
+  transition: var(--tran-03);
 }
 
 .footerContainer {
